@@ -42,6 +42,7 @@ function App() {
   }, []);
 
   return (
+    <div className="chat-container">
     <div style={styles.chatContainer}>
       <div style={styles.chat-Window}>
         <div style={styles.chatHeader}>
