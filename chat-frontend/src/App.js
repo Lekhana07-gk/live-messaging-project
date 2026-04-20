@@ -82,7 +82,6 @@ const styles = {
   chatFooter: { display: 'flex', padding: '15px', borderTop: '1px solid #ddd' },
   input: { flex: 1, padding: '10px', borderRadius: '5px', border: '1px solid #ccc', outline: 'none' },
   button: { padding: '10px 20px', marginLeft: '10px', border: 'none', borderRadius: '5px', backgroundColor: '#28a745', color: '#fff', cursor: 'pointer' }
-  );
-}
+};
 
 export default App;
