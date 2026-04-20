@@ -51,7 +51,7 @@ function App() {
         
         <div style={styles.chatBody}>
           {messageList.map((msg, index) => (
-            <div key={index} style={msg.sender === 'Me' ? styles.messageMe : styles.messageOther}>
+            <div key={index} className={msg.sender === 'Me' ? "message.me" : "message-them"}>
               <p style={{ margin: 0 }}>{msg.message}</p>
               <span style={styles.timeText}>{msg.time}</span>
             </div>
