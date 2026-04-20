@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
 // IMPORTANT: Paste your actual backend URL inside the quotes below!
-const socket = io.connect("YOUR_BACKEND_URL_HERE"); 
+const socket = io.connect("https://live-messaging-project.onrender.com"); 
 
 function App() {
   const [currentMessage, setCurrentMessage] = useState("");
