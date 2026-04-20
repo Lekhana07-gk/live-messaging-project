@@ -34,5 +34,44 @@
   }
   to {
     transform: rotate(360deg);
+  }body {
+    background:
+    linear-gradient(135deg,#667eea 0%,#764ba2 100%);
+    font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
   }
+  .chat-container {
+  background: rgba(255, 255, 255, 0.15); /* Slightly transparent white */
+  backdrop-filter: blur(10px); /* The frosted glass blur */
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* Your messages */
+.message-me {
+  background-color: #0078ff;
+  color: white;
+  border-radius: 15px 15px 0px 15px; /* Flat corner on bottom right */
+  align-self: flex-end; /* Pushes it to the right side */
+}
+
+/* Their messages */
+.message-them {
+  background-color: #e4e6eb;
+  color: black;
+  border-radius: 15px 15px 15px 0px; /* Flat corner on bottom left */
+  align-self: flex-start; /* Pushes it to the left side */
+}
+button {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Makes the change smooth */
+}
+
+button:hover {
+  background-color: #005bb5; /* Darker blue when hovering */
+  transform: scale(1.05); /* Makes the button grow slightly! */
+}
 }
