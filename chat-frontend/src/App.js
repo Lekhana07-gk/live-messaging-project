@@ -1,3 +1,4 @@
+import './App.css';
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
@@ -41,8 +42,8 @@ function App() {
   }, []);
 
   return (
-    <div style={styles.appContainer}>
-      <div style={styles.chatWindow}>
+    <div style={styles.chatContainer}>
+      <div style={styles.chat-Window}>
         <div style={styles.chatHeader}>
           <h2>Live Chat</h2>
         </div>
