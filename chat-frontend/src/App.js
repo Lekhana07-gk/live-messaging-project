@@ -57,17 +57,13 @@ function App() {
             </div>
           ))}
         </div>
-        
-        <div style={styles.chatFooter}>
-          <input
-            type="text"
-            placeholder="Type a message..."
-            value={currentMessage}
-            onChange={(event) => setCurrentMessage(event.target.value)}
-            onKeyPress={(event) => { event.key === "Enter" && sendMessage(); }}
-            style={styles.input}
-          />
-          <button onClick={sendMessage} style={styles.button}>Send</button>
+        placeholder="Type a message..."
+          value={currentMessage}
+          onChange={(event) => setCurrentMessage(event.target.value)}
+          onKeyPress={(event) => event.key === 'Enter' && sendMessage()}
+          style={styles.input}
+        />
+        <button onClick={sendMessage} style={styles.button}>Send</button>
         </div>
       </div>
     </div>
