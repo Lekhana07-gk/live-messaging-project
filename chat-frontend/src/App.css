@@ -1,4 +1,3 @@
-/* 1. Main Background */
 body {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -9,7 +8,6 @@ body {
   align-items: center;
 }
 
-/* 2. The Glass Chat Box */
 .chat-container {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
@@ -24,7 +22,6 @@ body {
   overflow: hidden;
 }
 
-/* 3. Your Messages (Right Side) */
 .message-me {
   background-color: #0078ff;
   color: white;
@@ -35,7 +32,6 @@ body {
   max-width: 70%;
 }
 
-/* 4. Their Messages (Left Side) */
 .message-them {
   background-color: #e4e6eb;
   color: black;
