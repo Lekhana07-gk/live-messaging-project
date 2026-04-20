@@ -71,7 +71,7 @@ function App() {
         </div>
       </div>
     </div>
-  );
+);
 }
 
 // Simple inline styles for a clean UI
